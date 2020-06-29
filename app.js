@@ -630,6 +630,33 @@ calculateHypotenuse(6,5)
 
 /*----------------------------------------------Task-9-----------------------------------------------------------------*/
 
+/*Arguments as value*/
+
+function area(a,b) {
+
+	var d  = a * b;
+
+	alert(d)
+}
+
+area(5,6)
+
+/*Arguments as variable*/
+
+function area(a,b) {
+
+	var d  = a * b;
+
+	alert(d)
+}
+
+var width = 5;
+
+var height = 6;
+
+area(width,height)
+
+
 
 /*----------------------------------------------Task-10-----------------------------------------------------------------*/
 
